@@ -1,0 +1,376 @@
+*{box-sizing: content-box
+}
+
+p{
+    margin: 0%;
+    padding: 0px 10px 10px 10px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./Fotos-Index/BACKGROUND-MP-LGREY.jpg);
+    background-repeat: repeat;
+    background-size: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+img{
+    max-width: 90%;
+}
+
+h1{
+    color: #504242;
+}
+
+section {
+    padding-top: 40px;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 0%;
+    margin: 0%;
+}
+
+.item-list :hover{
+    color: rgb(44, 44, 44);
+    background-color: rgb(192, 187, 184);
+    border-radius: 10px;
+    border: solid 3px;
+    padding: 5px;
+}
+
+.item-list a{
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+    background-color: black;
+}
+
+.item-list{
+    list-style: none;
+}
+
+.form {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-55%, 5%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    /* margin: 30px; */
+    margin-bottom: 100px;
+    border-radius: 10px;
+    box-shadow: 0 30px 30px -30px rgba(27, 26, 26, 0.315);
+  }
+  
+  .form .title {
+    color: rgb(185, 49, 174);
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+  }
+  
+  .form input {
+    outline: 0;
+    border: 1px solid rgb(219, 213, 213);
+    padding: 8px 14px;
+    border-radius: 8px;
+    width: 90%;
+    height: 50px;
+  }
+  
+  .form textarea {
+    border-radius: 8px;
+    height: 100px;
+    width: 90%;
+    resize: none;
+    outline: 0;
+    padding: 8px 14px;
+    border: 1px solid rgb(219, 213, 213);
+  }
+  
+  .form button {
+    align-self: center;
+    padding: 8px;
+    outline: 0;
+    border: 0;
+    border-radius: 8px;
+    width: 180px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: rgb(185, 49, 174);
+    color: #fff;
+    cursor: pointer;
+
+  }
+
+.titulo {
+
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    font-size: 20pt;
+    font-weight: bold;
+    margin: 20PX;
+    padding: 10PX;
+    margin-left: 50px;
+    width: 340px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+}
+.titulo-marca{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    margin: 10PX;
+    padding: 10PX;
+    width: 200px !important;
+    /* height: 25px; */
+    border-radius: 15px;
+    background-color: rgb(238, 120, 203);
+}
+
+.alim-item{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.alim-item p{
+    padding: 5px;
+}
+.marca-alim{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    color: rgb(78, 74, 74);
+}    
+
+.tipo-bolsa{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    color: black;
+    background-color: rgb(228, 225, 225)
+    
+}
+.alim-item:hover .tipo-bolsa{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 1px solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    transition: top 0.5s;
+    z-index: 1;
+
+}
+
+.tipo-bolsa p{
+    padding: 5px;
+}
+
+#border50 img{
+    border-radius: 50px;
+}
+#perro-pc{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+
+    margin: 30px;
+    width: 60%;
+    height: auto;
+}
+#perro-pc img{
+    border-radius: 50px;
+}
+
+
+#barra{
+    display: flex;
+    padding: 0;
+    /* border-radius: 30px; */
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+#barra ul {
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 0px 30px 30px 0px;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+#horario{
+    display: none;
+    position: absolute;
+    top: 110%;
+    right: 5px;
+    color: black;
+    background-color: rgb(219, 213, 213);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+
+}
+
+#horario-accion:hover + #horario{
+    display: block;
+}
+
+
+#grilla1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+#grilla1 img {
+    position: relative;
+    overflow: hidden;    
+    border-radius: 50px;
+    padding: 20px;
+    width: 400px; /* Ancho original del div */
+    height: 200px; /* Alto original del div */
+    transition: transform 0.3s;
+}
+#grilla1 img:hover{
+    transform: scale(1.09);
+}
+
+#grilla2 img {
+    position: flex;
+    overflow: hidden;    
+    border-radius: 50px;
+    padding: 20px;
+    width: 700px; 
+    height: 350px; 
+}
+
+#grilla-alim {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
+}
+#grilla-alim img {
+    position: relative;
+    overflow: hidden;    
+    border-radius: 50px;
+    padding: 20px;
+    width: 200px; /* Ancho original del div */
+    height: 300px; /* Alto original del div */
+    transition: transform 0.3s;
+
+}
+#grilla-alim img:hover{
+    transform: scale(1.09);
+}
+
+#whatsapp-logo{
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    max-width: 60px;
+    max-height: 60px;
+    z-index: 2;
+
+}
+
+#lorem{
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+
+#negrita{
+    font-weight: bold;
+}
+
+#descrip-clase-alimento{
+    font-size: larger;
+}
+/* ---------------------- */
+#carouselExample {
+    margin: 0 auto; /* Centra el elemento horizontalmente */
+    width: 80%;     /* Establece el ancho al 80% del tamaño de la pantalla */
+}
+
+.carousel-item{
+    background-position: center center !important;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+/* ----------------------------- */
+#volver{
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    max-width: 80px;
+    max-height: 80px;
+    z-index: 1;
+}
+#volver img{
+    border-radius: 15px;
+}
+
+
+/* Para corregir la visualizacion segun la
+resolucion del dispositivo. */
+
+@media (max-width: 360px){
+
+    h1{
+        color: blueviolet;
+    }
+    footer{
+        display: none;
+    }
+    #grilla1 img{
+        width: 100%;
+        height: auto;
+    }
+    #grilla2 img{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+}
+
+
