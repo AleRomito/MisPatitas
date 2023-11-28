@@ -8,6 +8,7 @@ p{
 body{
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-image: url(./Fotos-Index/BACKGROUND-MP-LGREY.jpg);
     background-repeat: repeat;
     background-size: 50%;
@@ -60,9 +61,6 @@ footer{
 
 .form {
     position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-55%, 5%);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -70,7 +68,6 @@ footer{
     width: 400px;
     background-color: white;
     padding: 20px;
-    /* margin: 30px; */
     margin-bottom: 100px;
     border-radius: 10px;
     box-shadow: 0 30px 30px -30px rgba(27, 26, 26, 0.315);
@@ -155,10 +152,16 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-
+}
+.nuestras-secciones{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.alim-item p{
+
+.alim-item,.nuestras-secciones p{
     padding: 5px;
 }
 .marca-alim{
@@ -193,6 +196,31 @@ footer{
 .tipo-bolsa p{
     padding: 5px;
 }
+.seccion-mascota{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    color: black;
+    background-color: rgb(228, 225, 225)
+}
+.seccion-mascota p{
+    font-size: larger;
+}
+
+
+.nuestras-secciones:hover .seccion-mascota {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 1px solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    transition: top 0.5s;
+    z-index: 1;
+}
+
 
 #border50 img{
     border-radius: 50px;
