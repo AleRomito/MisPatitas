@@ -220,7 +220,15 @@ footer{
     transition: top 0.5s;
     z-index: 1;
 }
+/* tratando de hacer hover en huella-click en gatos */
+#huella-click {
+    transform: 0.3s ease-in-out;
+}
+#huella-click:hover {
+    transition: scale (1.1)
 
+}
+/* -------------------------- */
 
 #border50 img{
     border-radius: 50px;
