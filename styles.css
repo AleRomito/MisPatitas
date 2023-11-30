@@ -174,20 +174,20 @@ footer{
 .tipo-bolsa{
     display: none;
     position: absolute;
-    top: 100%;
+    top: 75%;
     left: 50%;
     transform: translateX(-50%);
     width: 150px;
-    color: black;
-    background-color: rgb(228, 225, 225)
+    color: rgb(26, 25, 25);
+    font-weight: bold;
+    background-color: rgb(228, 225, 225, 0.7)
     
 }
 .alim-item:hover .tipo-bolsa{
     display: flex;
     flex-direction: column;
     border-radius: 15px;
-    border: 1px solid;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    border: 2px solid;
     transition: top 0.5s;
     z-index: 1;
 
@@ -199,27 +199,32 @@ footer{
 .seccion-mascota{
     display: none;
     position: absolute;
-    top: 100%;
+    top: 50%;
     left: 50%;
     transform: translateX(-50%);
     width: 150px;
     color: black;
-    background-color: rgb(228, 225, 225)
+    background-color: rgb(228, 225, 225, 0.5)
 }
 .seccion-mascota p{
-    font-size: larger;
+    font-size: x-large;
 }
-
+.seccion-mascota a{
+    text-decoration: none;
+    color: black;
+}
 
 .nuestras-secciones:hover .seccion-mascota {
     display: flex;
     flex-direction: column;
     border-radius: 15px;
-    border: 1px solid;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    border: 3px solid;
+    border-color: rgb(218, 15, 167);
     transition: top 0.5s;
     z-index: 1;
 }
+
+
 /* tratando de hacer hover en huella-click en gatos */
 #huella-click {
     transform: 0.3s ease-in-out;
