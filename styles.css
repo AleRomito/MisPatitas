@@ -6,9 +6,9 @@ p{
     padding: 0px 10px 10px 10px;
 }
 body{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
     background-image: url(./Fotos-Index/BACKGROUND-MP-LGREY.jpg);
     background-repeat: repeat;
     background-size: 50%;
@@ -368,7 +368,7 @@ footer{
     font-size: larger;
 }
 /* ---------------------- */
-#carouselExample {
+#carouselExampleFade {
     margin: 0 auto; /* Centra el elemento horizontalmente */
     width: 80%;     /* Establece el ancho al 80% del tamaño de la pantalla */
 }
@@ -390,7 +390,10 @@ footer{
 #volver img{
     border-radius: 15px;
 }
-
+#espacio-vacio{
+    height: 30px;
+    width: 100%;
+}
 
 /* Para corregir la visualizacion segun la
 resolucion del dispositivo. */
