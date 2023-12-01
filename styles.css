@@ -5,10 +5,14 @@ p{
     margin: 0%;
     padding: 0px 10px 10px 10px;
 }
+#food{
+    display: grid;
+}
+
 body{
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    align-items: center; */
+    align-items: center;
     background-image: url(./Fotos-Index/BACKGROUND-MP-LGREY.jpg);
     background-repeat: repeat;
     background-size: 50%;
