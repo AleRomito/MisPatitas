@@ -371,18 +371,20 @@ footer{
 #descrip-larger{
     font-size: larger;
 }
-/* ---------------------- */
-#carouselExampleFade {
-    margin: 0 auto; /* Centra el elemento horizontalmente */
-    width: 80%;     /* Establece el ancho al 80% del tamaño de la pantalla */
+
+#img-salon img{
+    border-radius: 50px;
+    width: 200px;
 }
 
-.carousel-item{
-    background-position: center center !important;
-    background-repeat: no-repeat;
-    margin: 0;
+#img-salon{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    
+
 }
-/* ----------------------------- */
+
 #volver{
     position: fixed;
     bottom: 20px;
