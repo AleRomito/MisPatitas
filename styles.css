@@ -241,6 +241,7 @@ footer{
 
 #border50 img{
     border-radius: 50px;
+    padding: 20px;
 }
 #perro-pc{
     display: flex;
@@ -319,13 +320,19 @@ footer{
     transform: scale(1.09);
 }
 
-#grilla2 img {
-    position: flex;
+#grilla-local {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+#grilla-local img {
+    position: relative;
     overflow: hidden;    
     border-radius: 50px;
     padding: 20px;
-    width: 700px; 
-    height: 350px; 
+    width: 600px;
+    height: 300px;
 }
 
 #grilla-alim {
@@ -415,11 +422,6 @@ resolucion del dispositivo. */
     #grilla1 img{
         width: 100%;
         height: auto;
-    }
-    #grilla2 img{
-        width: 100%;
-        height: auto;
-        padding: 10px;
     }
 }
 
