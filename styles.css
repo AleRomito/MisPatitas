@@ -200,7 +200,7 @@ footer{
 .tipo-bolsa p{
     padding: 5px;
 }
-.seccion-mascota{
+.seccion-grilla{
     display: none;
     position: absolute;
     top: 50%;
@@ -210,15 +210,15 @@ footer{
     color: black;
     background-color: rgb(228, 225, 225, 0.5)
 }
-.seccion-mascota p{
+.seccion-grilla p{
     font-size: x-large;
 }
-.seccion-mascota a{
+.seccion-grilla a{
     text-decoration: none;
     color: black;
 }
 
-.nuestras-secciones:hover .seccion-mascota {
+.nuestras-secciones:hover .seccion-grilla {
     display: flex;
     flex-direction: column;
     border-radius: 15px;
@@ -227,6 +227,35 @@ footer{
     transition: top 0.5s;
     z-index: 1;
 }
+
+.seccion-grilla-prod{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    color: black;
+    background-color: rgb(228, 225, 225, 0.5)
+}
+.seccion-grilla-prod p{
+    font-size: x-large;
+}
+.seccion-grilla-prod a{
+    text-decoration: none;
+    color: black;
+}
+
+.nuestras-secciones:hover .seccion-grilla-prod {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 3px solid;
+    border-color: rgb(218, 15, 167);
+    transition: top 0.5s;
+    z-index: 1;
+}
+
 
 
 /* tratando de hacer hover en huella-click en gatos */
@@ -243,6 +272,18 @@ footer{
     border-radius: 50px;
     padding: 20px;
 }
+
+#border50-secciones img{
+    border-radius: 50px;
+    padding: 20px;
+    width: 40vw;
+}
+
+#menu-movil{
+    display: none;
+}
+
+
 #perro-pc{
     display: flex;
     align-self: center;
@@ -378,7 +419,9 @@ footer{
 #descrip-larger{
     font-size: larger;
 }
-
+#descrip-xl{
+    font-size: x-large;
+}
 #img-salon img{
     border-radius: 50px;
     width: 200px;
@@ -411,18 +454,115 @@ footer{
 /* Para corregir la visualizacion segun la
 resolucion del dispositivo. */
 
-@media (max-width: 360px){
+@media only screen and (max-width: 412px){
+
+    *{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100vw;    
+    }
+
+    body{
+        background-image: url(./Fotos-Index/BACKGROUND-MP-LGREY.jpg);
+        background-repeat: repeat;
+        background-size: 90%;
+    }
 
     h1{
-        color: blueviolet;
+        color: rgb(153, 25, 153);
     }
     footer{
         display: none;
+    }
+    h4{
+        display: none;
+    }
+
+    .btn-close{
+        display: none;
+    }
+
+    .boton-menu-movil{
+        background-color: black;
+        border: none;
+    }
+
+    .titulo {
+
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        font-size: 20pt;
+        font-weight: bold;
+        margin: 20PX;
+        padding: 10PX;
+        /* margin-left: 50px; */
+        width: 250px;
+        height: 40px;
+        border-radius: 15px;
+        background-color: white;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+    }
+
+    .seccion-grilla-prod{
+        display: grid;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 150px;
+        color: black;
+        background-color: rgb(228, 225, 225, 0.5);
+        border-radius: 20px;
+        z-index: 1;
+    }
+    .seccion-grilla-prod p{
+        font-size: x-large;
+    }
+    .seccion-grilla-prod a{
+        text-decoration: none;
+        color: black;
+    }
+
+    #no-visual{
+        display: none;
+    }
+    #espacio-vacio{
+        display: none;
+    }
+    #menu-movil{
+        display: flex;
+        flex-direction: row;
+        width: 90vw;
+        padding: 3px;
+        background-color: black;
+        border-radius: 15px;
+        position: sticky;
+        top: 15px;
+        justify-content: space-evenly;
+        z-index: 2;
+    }
+
+    #grilla-local img{
+        width: 90vw;
+        height: auto;
     }
     #grilla1 img{
         width: 100%;
         height: auto;
     }
+    #border50{
+        padding-top: 10px;
+    }
+    
+    #border50-secciones img{
+        width: 80vw;
+    }
+
+    #barra{
+        display: none;
+    }
+
 }
 
 

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenidos a Mis Patitas Tienda de Mascotas</title>
+    <title id="no-visual">Bienvenidos a Mis Patitas Tienda de Mascotas</title>
     <link rel="icon" href="./Fotos-Index/Logo-title-MP.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">  
   
@@ -20,7 +20,7 @@
     <div id="whatsapp-logo"><a href="https://wa.me/5492235225352" target="_blank"><img src="./Fotos-Index/WHATSAPP-LOGO.png"alt="Charlemos por whatsapp"></a></div>
     <div id="barra">
       <ul>
-           <li><a href="#"><img style="height: 30px;" src="./MP IMG/huella-sola.png" alt=""></a></li>
+           <li><a href="#"><img style="height: 35px; width: 40px;" src="./Fotos-Index/huella-flecha-arriba-6px.png" alt=""></a></li>
            <li class="item-list"><a href="#secciones">Secciones</a></li>
            <li class="item-list"><a href="#productos">Productos</a></li>
            <li class="item-list"><a href="#local">Nuestro local</a></li>
@@ -28,9 +28,29 @@
            <li class="item-list"><a href="./formulario-contacto.html">Contactanos</a></li>
            <li class="item-list"><a href="#" id="horario-accion">Horarios</a><div id="horario">Lu a Vi 10 a 19 hs / Sab 10 a 14 hs</div></li>
        </ul>
-   </div>        
+   </div>
+
+    <div id="menu-movil">
+      <div class="dropdown-center">
+        <button class="btn btn-secondary dropdown-toggle boton-menu-movil" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Menú
+        </button>
+        <ul class="dropdown-menu lista-menu" style="text-align: center;">
+          <li><a class="dropdown-item" href="#secciones">Secciones</a></li>
+          <li><a class="dropdown-item" href="#productos">Productos</a></li>
+          <li><a class="dropdown-item" href="#local">Nuestro local</a></li>
+          <li><a class="dropdown-item" href="./formulario-contacto.html">Contactanos</a></li>
+          <li><a class="dropdown-item" href="#" id="horariosLink">Horarios</a></li>
+        </ul>
+      </div><a href="#"><img src="./Fotos-Index/huella-flecha-arriba.png" style="width: 40px;" alt="volver arriba"></a></div>
+    </div>    
         
-        
+    <div id="horariosDiv" style="display: none; position: fixed; top: 50vh; color: #3d3838; font-size: larger; background-color: rgb(230, 230, 230, .9); padding: 20px; border-radius: 20px; z-index: 3;">
+      <p>Nuestro horario:</p>
+      <p>Lun a Vie - 10 a 19 hs.</p>
+      <p>Sábado - 10 a 14 hs.</p>
+    </div>
+
     <section>
         <h2>¿Quienes somos?</h2>
         <div id="border50"><img src="./Fotos-Index/Frente-local-MP.jpeg" alt="foto frente"></div>
@@ -51,17 +71,17 @@
        <div class="nuestras-secciones">
           <a href="./seccion-gatos.html">
           <img src="./Fotos-Index/Section-gatos.jpg" alt="Sección Gatos"></a>
-          <div class="seccion-mascota"><a href="./seccion-gatos.html"><p>Sección Gatos</p></a></div>
+          <div class="seccion-grilla"><a href="./seccion-gatos.html"><p>Sección Gatos</p></a></div>
       </div>
        <div class="nuestras-secciones">
         <a href="././seccion-perros.html">
         <img src="./Fotos-Index/Section-Perros.jpg" alt="Sección Perros"></a>
-        <div class="seccion-mascota"><a href="./seccion-perros.html"><p>Sección Perros</p></a></div>
+        <div class="seccion-grilla"><a href="./seccion-perros.html"><p>Sección Perros</p></a></div>
       </div>
        <div class="nuestras-secciones">
         <a href="./seccion-pequenas.html">
         <img src="./Fotos-Index/Section-pequeñas-mascotas.jpg" alt="Sección Pequeñas Mascotas"></a>
-        <div class="seccion-mascota"><a href="./seccion-pequenas.html"><p>Pequeñas Mascotas</p></a></div>
+        <div class="seccion-grilla"><a href="./seccion-pequenas.html"><p>Pequeñas Mascotas</p></a></div>
       </div>
     </div>
     
@@ -80,17 +100,17 @@
           <div class="nuestras-secciones">
             <a href="./alimentos.html">
             <img src="./Fotos-Index/producto-alimentos.jpg" alt="Sección Alimentos"></a>
-            <div class="seccion-mascota"><a href="./alimentos.html"><p>Alimentos</p></a></div>
+            <div class="seccion-grilla-prod"><a href="./alimentos.html"><p>Alimentos</p></a></div>
           </div> 
           <div class="nuestras-secciones">
             <a href="#productos">
             <img src="./Fotos-Index/producto-ropa.jpg" alt="Moda para mascotas"></a>
-            <div class="seccion-mascota"><a href="#productos"><p>Moda</p></a></div>
+            <div class="seccion-grilla-prod"><a href="#productos"><p>Moda</p></a></div>
           </div> 
           <div class="nuestras-secciones">
             <a href="#productos">
             <img src="./Fotos-Index/producto-accesorios.jpg" alt="Accesorios"></a>
-            <div class="seccion-mascota"><a href="#productos"><p>Accesorios</p></a></div>
+            <div class="seccion-grilla-prod"><a href="#productos"><p>Accesorios</p></a></div>
           </div> 
       </div>
 
@@ -116,6 +136,37 @@
 <footer>
     Tienda de Mascotas "Mis Patitas" Mar del Plata- 2023
 </footer>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Obtén referencias a los elementos
+    var horariosLink = document.getElementById('horariosLink');
+    var horariosDiv = document.getElementById('horariosDiv');
+
+    // Agrega un evento de clic al enlace "HORARIOS"
+    horariosLink.addEventListener('click', function (event) {
+      event.preventDefault(); // Evita que el enlace se comporte como un enlace normal
+
+      // Cambia la visibilidad del div "horariosDiv"
+      if (horariosDiv.style.display === 'none' || horariosDiv.style.display === '') {
+        horariosDiv.style.display = 'block';
+      } else {
+        horariosDiv.style.display = 'none';
+      }
+    });
+
+    // Agrega un evento de clic al documento para ocultar el div "horariosDiv"
+    document.addEventListener('click', function (event) {
+      var isHorariosLink = event.target === horariosLink || horariosLink.contains(event.target);
+      var isHorariosDiv = event.target === horariosDiv || horariosDiv.contains(event.target);
+
+      // Oculta el div "horariosDiv" si haces clic en otro lugar de la pantalla
+      if (!isHorariosLink && !isHorariosDiv) {
+        horariosDiv.style.display = 'none';
+      }
+    });
+  });
+</script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
