@@ -449,6 +449,10 @@ footer{
     height: 30px;
     width: 100%;
 }
+#espacio-vacio1{
+    height: 30px;
+    width: 100%;
+}
 
 #redes{
     display: flex;
@@ -468,7 +472,7 @@ footer{
     align-items: center;
 }
 #nro-whatsapp p{
-    font-size: 25pt;
+    font-size: 22pt;
     color: rgb(49, 44, 44); padding-bottom: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -618,13 +622,17 @@ resolucion del dispositivo. */
         align-items: center;
     }
     #nro-whatsapp p{
-        font-size: 20pt;
+        font-size: 15pt;
         color: rgb(49, 44, 44); padding-bottom: 0;
         font-weight: bold;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     #nro-whatsapp img{
         width: 60px;
+    }
+    #espacio-vacio1{
+        height: 30px;
+        width: 100%;
     }
     
 }
