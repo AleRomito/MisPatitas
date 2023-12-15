@@ -258,7 +258,7 @@ footer{
 
 
 /* tratando de hacer hover en huella-click en gatos */
-#huella-click {
+#huella-click{
     transform: 0.3s ease-in-out;
 }
 #huella-click:hover {
@@ -576,6 +576,11 @@ resolucion del dispositivo. */
         max-height: 60px;
         z-index: 1;
     }
+
+    #huella-click {
+        width: 40vw;
+    }
+
     #menu-movil{
         display: flex;
         flex-direction: row;
