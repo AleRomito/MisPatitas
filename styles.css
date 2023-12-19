@@ -281,7 +281,9 @@ footer{
 #menu-movil{
     display: none;
 }
-
+#menu-movil-landscape{
+    display: none;
+}
 
 #perro-pc{
     display: flex;
@@ -483,6 +485,38 @@ footer{
 /* Para corregir la visualizacion segun la
 resolucion del dispositivo. */
 
+/* @media screen and (orientation: landscape min-width: 850px){
+    #menu-movil{
+        display: none;
+    }
+    #barra{
+        display: none;
+    }
+    #menu-movil-landscape{
+        display: flex;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        align-content: space-between;
+        position: sticky;
+        top: 0;
+        z-index: 1;    
+    }
+    #menu-movil-landscape ul{
+        height: 50px;
+        background-color: black;
+        color: white;
+        border-radius: 0px 30px 30px 0px;
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+}
+ */
 @media only screen and (max-width: 576px){
 
     *{
@@ -526,7 +560,6 @@ resolucion del dispositivo. */
         font-weight: bold;
         margin: 20PX;
         padding: 10PX;
-        /* margin-left: 50px; */
         width: 250px;
         height: 40px;
         border-radius: 15px;
@@ -613,6 +646,10 @@ resolucion del dispositivo. */
     #barra{
         display: none;
     }
+    #menu-movil-landscape{
+        display: none;
+    }
+    
     #logo-instagram{
         width: 60vw;
         padding: 15px;
