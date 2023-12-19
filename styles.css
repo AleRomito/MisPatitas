@@ -485,7 +485,7 @@ footer{
 /* Para corregir la visualizacion segun la
 resolucion del dispositivo. */
 
-@media only screen and (max-device-width: 858px) and (orientation: landscape){
+@media only screen and (max-device-width: 750px) and (orientation: landscape){
     
     h4{
         display: none;
