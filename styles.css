@@ -485,7 +485,8 @@ footer{
 /* Para corregir la visualizacion segun la
 resolucion del dispositivo. */
 
-/* @media screen and (orientation: landscape min-width: 850px){
+@media only screen and (max-device-width: 767px) and (orientation: landscape){
+    
     #menu-movil{
         display: none;
     }
@@ -516,7 +517,7 @@ resolucion del dispositivo. */
         width: 100%;
     }
 }
- */
+
 @media only screen and (max-width: 576px){
 
     *{
