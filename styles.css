@@ -254,8 +254,9 @@ footer{
     transition: top 0.5s;
     z-index: 1;
 }
-
-
+.cerrar-modal{
+    background-color: rgb(218, 15, 167);
+}
 
 /* tratando de hacer hover en huella-click en gatos */
 #huella-click{
@@ -487,6 +488,56 @@ footer{
 
 /* Para corregir la visualizacion segun la
 resolucion del dispositivo. */
+
+@media only screen and (max-width: 992px){
+    
+    h4{
+        display: none;
+    }
+
+    #menu-movil{
+        display: none;
+    }
+
+    #ver-en-pc{
+        display: none;
+    }
+    #ver-en-movil{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #huella-leer{
+        width: 75px;
+    }
+    #barra{
+        display: none;
+    }
+    #menu-movil-landscape{
+        display: flex;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        align-content: space-between;
+        position: sticky;
+        top: 0;
+        z-index: 1;    
+    }
+    #menu-movil-landscape ul{
+        height: 50px;
+        background-color: black;
+        color: white;
+        border-radius: 0px 30px 30px 0px;
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+}
+
 
 @media only screen and (max-width: 768px){
     
