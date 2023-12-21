@@ -510,6 +510,9 @@ resolucion del dispositivo. */
     #huella-leer{
         width: 75px;
     }
+    #huella-leer-2{
+        width: 75px;
+    }
     #barra{
         display: none;
     }
@@ -558,6 +561,9 @@ resolucion del dispositivo. */
         align-items: center;
     }
     #huella-leer{
+        width: 75px;
+    }
+    #huella-leer-2{
         width: 75px;
     }
     #barra{
@@ -680,6 +686,9 @@ resolucion del dispositivo. */
         display: flex;
     }
     #huella-leer{
+        width: 20vw;
+    }
+    #huella-leer-2{
         width: 20vw;
     }
     #volver{
