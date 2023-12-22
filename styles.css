@@ -613,7 +613,7 @@ resolucion del dispositivo. */
         color: rgb(153, 25, 153);
     }
     footer{
-        display: none;
+        display: grid;
     }
     h4{
         display: none;
