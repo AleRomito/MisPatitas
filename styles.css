@@ -42,6 +42,7 @@ footer{
     color: white;
     padding: 0%;
     margin: 0%;
+    z-index: 3;
 }
 
 .item-list :hover{
@@ -419,6 +420,7 @@ footer{
 
 #negrita{
     font-weight: bold;
+    font-size: larger;
 }
 
 #descrip-larger{
@@ -495,6 +497,25 @@ resolucion del dispositivo. */
         display: none;
     }
 
+    .seccion-grilla-prod{
+        display: grid;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 150px;
+        color: black;
+        background-color: rgb(228, 225, 225, 0.5);
+        border-radius: 20px;
+        z-index: 1;
+    }
+    .seccion-grilla-prod p{
+        font-size: x-large;
+    }
+    .seccion-grilla-prod a{
+        text-decoration: none;
+        color: black;
+    }
+
     #menu-movil{
         display: none;
     }
@@ -546,6 +567,25 @@ resolucion del dispositivo. */
     
     h4{
         display: none;
+    }
+
+    .seccion-grilla-prod{
+        display: grid;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 150px;
+        color: black;
+        background-color: rgb(228, 225, 225, 0.5);
+        border-radius: 20px;
+        z-index: 1;
+    }
+    .seccion-grilla-prod p{
+        font-size: x-large;
+    }
+    .seccion-grilla-prod a{
+        text-decoration: none;
+        color: black;
     }
 
     #menu-movil{
@@ -610,7 +650,7 @@ resolucion del dispositivo. */
     }
 
     h1{
-        color: rgb(153, 25, 153);
+        color: #504242;
     }
     footer{
         display: grid;
