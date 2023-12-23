@@ -259,6 +259,10 @@ footer{
     background-color: rgb(218, 15, 167);
 }
 
+#huella-entrar-NAVIDAD{
+    width: 10vw;
+}
+
 /* tratando de hacer hover en huella-click en gatos */
 #huella-click{
     transform: 0.3s ease-in-out;
@@ -516,6 +520,17 @@ resolucion del dispositivo. */
         color: black;
     }
 
+    #huella-entrar-NAVIDAD{
+        width: 20vw;
+    }
+    #FOTO-MUCHAS-FELICIDADES{
+        width: 70vw;
+    }
+    #FOTO-MUCHAS-FELICIDADES img{
+        border-radius: 50px;
+    }
+
+
     #menu-movil{
         display: none;
     }
@@ -587,6 +602,18 @@ resolucion del dispositivo. */
         text-decoration: none;
         color: black;
     }
+
+    #huella-entrar-NAVIDAD{
+        width: 20vw;
+    }
+    #FOTO-MUCHAS-FELICIDADES{
+        width: 70vw;
+    }
+    #FOTO-MUCHAS-FELICIDADES img{
+        border-radius: 30px;
+    }
+
+    
 
     #menu-movil{
         display: none;
@@ -706,6 +733,20 @@ resolucion del dispositivo. */
         width: 80vw;
         border-radius: 20px;
     }
+
+
+    #huella-entrar-NAVIDAD{
+        width: 30vw;
+    }
+    #FOTO-MUCHAS-FELICIDADES{
+        width: 80vw;
+    }
+    #FOTO-MUCHAS-FELICIDADES{
+        border-radius: 30px;
+    }
+
+
+
     #perro-pc{
         width: 80vw;
     }
