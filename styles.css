@@ -295,6 +295,15 @@ CSS para secciones "Gatos, Perros y Pequeñas Mascotas"
     background-color: rgb(128, 128, 128, 0.3);
     font-size: larger;
 }
+.logos-alimentos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.logos-alimentos img{
+    padding: 10px;
+    border-radius: 40px;
+}
 /* ----------------------------
 ---------------------------- */
 
