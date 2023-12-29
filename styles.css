@@ -314,6 +314,8 @@ CSS para secciones "Gatos, Perros y Pequeñas Mascotas"
     border-radius: 50px;
     margin: 20px;
     padding: 20px;
+    background-size: cover;
+    background-position: center;
 }
 #contenido-cuidados{
     display: flex;
@@ -327,6 +329,11 @@ CSS para secciones "Gatos, Perros y Pequeñas Mascotas"
 #care5{background-color: rgba(153, 176, 209, 0.5);}
 #care6{background-color: rgba(211, 250, 69, 0.623);}
 #care7{background-color: rgba(226, 102, 102, 0.5);}
+#care8{background-image: url(./MP\ IMG/cepillar-gato.jpg);}
+#care9{background-image: url(./MP\ IMG/gato-en-veterinaria1.jpg);}
+#care10{background-image: url(./MP\ IMG/gato-bañandose.jpg);}
+#care11{background-image: url(./MP\ IMG/gato-comiendo.webp);}
+
 
 /* ----------------------------
 ---------------------------- */
