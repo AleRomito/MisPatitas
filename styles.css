@@ -303,7 +303,31 @@ CSS para secciones "Gatos, Perros y Pequeñas Mascotas"
 .logos-alimentos img{
     padding: 10px;
     border-radius: 40px;
+    transition: 0.5s;
 }
+.logos-alimentos img:hover{
+    transform: scale(1.09);
+}
+.texto-cuidados{
+    width: 25vw;
+    background-color: gray;
+    border-radius: 50px;
+    margin: 20px;
+    padding: 20px;
+}
+#contenido-cuidados{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#care1{background-color: rgb(250, 235, 215, 0.5);}
+#care2{background-color: rgba(252, 185, 98, 0.5);}
+#care3{background-color: rgba(248, 128, 222, 0.5);}
+#care4{background-color: rgba(188, 255, 134, 0.5);}
+#care5{background-color: rgba(153, 176, 209, 0.5);}
+#care6{background-color: rgba(211, 250, 69, 0.623);}
+#care7{background-color: rgba(226, 102, 102, 0.5);}
+
 /* ----------------------------
 ---------------------------- */
 
@@ -452,8 +476,8 @@ CSS para secciones "Gatos, Perros y Pequeñas Mascotas"
     overflow: hidden;    
     border-radius: 50px;
     padding: 20px;
-    width: 200px; /* Ancho original del div */
-    height: 300px; /* Alto original del div */
+    width: 200px;
+    height: 300px;
     transition: transform 0.3s;
 
 }
