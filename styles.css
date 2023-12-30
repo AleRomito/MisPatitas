@@ -78,7 +78,7 @@ footer{
     border-radius: 10px;
     box-shadow: 0 30px 30px -30px rgba(27, 26, 26, 0.315);
   }
-  
+
   .form .title {
     color: rgb(185, 49, 174);
     font-size: 30px;
@@ -90,7 +90,7 @@ footer{
     justify-content: center;
     align-self: center;
   }
-  
+
   .form input {
     outline: 0;
     border: 1px solid rgb(219, 213, 213);
@@ -99,7 +99,7 @@ footer{
     width: 90%;
     height: 50px;
   }
-  
+
   .form textarea {
     border-radius: 8px;
     height: 100px;
@@ -109,7 +109,7 @@ footer{
     padding: 8px 14px;
     border: 1px solid rgb(219, 213, 213);
   }
-  
+
   .form button {
     align-self: center;
     padding: 8px;
@@ -174,7 +174,7 @@ footer{
     font-size: 14pt;
     font-weight: bold;
     color: rgb(78, 74, 74);
-}    
+}
 
 .tipo-bolsa{
     display: none;
@@ -186,7 +186,7 @@ footer{
     color: rgb(26, 25, 25);
     font-weight: bold;
     background-color: rgb(228, 225, 225, 0.7)
-    
+
 }
 .alim-item:hover .tipo-bolsa{
     display: flex;
@@ -327,13 +327,123 @@ CSS para secciones "Gatos, Perros y Pequeñas Mascotas"
 #care3{background-color: rgba(248, 128, 222, 0.5);}
 #care4{background-color: rgba(188, 255, 134, 0.5);}
 #care5{background-color: rgba(153, 176, 209, 0.5);}
-#care6{background-color: rgba(211, 250, 69, 0.623);}
+#care6{background-color: rgba(211, 250, 69, 0.5);}
 #care7{background-color: rgba(226, 102, 102, 0.5);}
 #care8{background-image: url(./SECC-GATOS/gato-cepillar.jpg);}
 #care9{background-image: url(./SECC-GATOS/gato-en-veterinaria1.jpg);}
 #care10{background-image: url(./SECC-GATOS/gato-bañandose.jpg);}
 #care11{background-image: url(./SECC-GATOS/gato-comiendo.webp);}
 
+/* Para SECCIONES Entretenimiento */
+.grilla-entret-gato{
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+/* ---------------- */
+/* IMAGEN A TEXTO */
+
+.contenedor-juego {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50px;
+    margin: 15px;
+}
+.imagen-juego {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+    transition: transform 0.5s;
+}
+.texto-overlay-juego {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0; /* Inicialmente invisible */
+    transition: opacity 0.5s;
+}
+.contenedor-juego:hover .imagen-juego {
+    opacity: 0.5; 
+}
+.contenedor-juego:hover .texto-overlay-juego {
+    opacity: 1; 
+}
+/* ----------------- */
+/* TEXTO A IMAGEN */
+
+.texto-juego {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50px;
+    transition: transform 0.5s;
+}
+.imagen-overlay-juego {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    opacity: 0; /* Inicialmente invisible */
+    transition: opacity 0.5s;
+}
+.contenedor-juego:hover .texto-juego {
+    opacity: 0; 
+}
+.contenedor-juego:hover .imagen-overlay-juego {
+    opacity: 1; 
+}
+/* ----------------- */
+#text1{
+    background-color: rgb(67, 67, 207, 0.7);
+    color: white;
+}
+#text2{
+    background-color: rgba(102, 228, 43, 0.7);
+    color: black;
+}
+#text3{
+    background-color:   rgba(212, 37, 174, 0.5);
+    color: black;
+}
+#text4{
+    background-color:   rgba(212, 194, 37, 0.5);
+    color: black;
+}
+#text5{
+    background-color:   rgba(84, 73, 92, 0.5);
+    color: white;
+}
+#text6{
+    background-color:   rgba(255, 0, 0, 0.5);
+    color: white;
+}
+#text7{
+    background-color:   rgba(10, 151, 22, 0.5);
+    color: white;
+}
+#text8{
+    background-color:   rgba(7, 155, 148, 0.5);
+    color: black;
+}
 
 /* ----------------------------
 ---------------------------- */
@@ -442,11 +552,11 @@ CSS para secciones "Gatos, Perros y Pequeñas Mascotas"
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    
+
 }
 #grilla1 img {
     position: relative;
-    overflow: hidden;    
+    overflow: hidden;
     border-radius: 50px;
     padding: 20px;
     width: 400px; /* Ancho original del div */
@@ -461,11 +571,11 @@ CSS para secciones "Gatos, Perros y Pequeñas Mascotas"
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    
+
 }
 #grilla-local img {
     position: relative;
-    overflow: hidden;    
+    overflow: hidden;
     border-radius: 50px;
     padding: 20px;
     width: 600px;
@@ -476,11 +586,11 @@ CSS para secciones "Gatos, Perros y Pequeñas Mascotas"
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    
+
 }
 #grilla-alim img {
     position: relative;
-    overflow: hidden;    
+    overflow: hidden;
     border-radius: 50px;
     padding: 20px;
     width: 200px;
@@ -528,7 +638,7 @@ CSS para secciones "Gatos, Perros y Pequeñas Mascotas"
     display: flex;
     justify-content: flex-start;
     list-style: none;
-    
+
 
 }
 
@@ -582,7 +692,7 @@ CSS para secciones "Gatos, Perros y Pequeñas Mascotas"
 resolucion del dispositivo. */
 
 @media only screen and (max-width: 992px){
-    
+
     h4{
         display: none;
     }
@@ -646,7 +756,7 @@ resolucion del dispositivo. */
         align-content: space-between;
         position: sticky;
         top: 0;
-        z-index: 1;    
+        z-index: 1;
     }
     #menu-movil-landscape ul{
         height: 50px;
@@ -665,7 +775,7 @@ resolucion del dispositivo. */
 
 
 @media only screen and (max-width: 768px){
-    
+
     h4{
         display: none;
     }
@@ -730,7 +840,7 @@ resolucion del dispositivo. */
         align-content: space-between;
         position: sticky;
         top: 0;
-        z-index: 1;    
+        z-index: 1;
     }
     #menu-movil-landscape ul{
         height: 50px;
@@ -753,7 +863,7 @@ resolucion del dispositivo. */
         display: flex;
         flex-direction: column;
         align-items: center;
-        max-width: 100vw;    
+        max-width: 100vw;
     }
 
     body{
@@ -895,7 +1005,7 @@ resolucion del dispositivo. */
     #border50{
         padding-top: 10px;
     }
-    
+
     #border50-secciones img{
         width: 80vw;
     }
@@ -906,7 +1016,7 @@ resolucion del dispositivo. */
     #menu-movil-landscape{
         display: none;
     }
-    
+
     #logo-instagram{
         width: 60vw;
         padding: 15px;
@@ -933,7 +1043,7 @@ resolucion del dispositivo. */
         height: 30px;
         width: 100%;
     }
-    
+
 }
 
 
