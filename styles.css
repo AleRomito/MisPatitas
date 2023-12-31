@@ -448,15 +448,21 @@ CSS para secciones "Gatos, Perros y Pequeñas Mascotas"
 /* ----------------------------
 ---------------------------- */
 
-#FOTO-MUCHAS-FELICIDADES{
+#isologo-transp{
     width: 70vw;
+    margin-top: 50px;
 }
-#FOTO-MUCHAS-FELICIDADES img{
-    border-radius: 30px;
+#deseo2024{
+    width: 60vw;
+    margin-top: 50px;
 }
 
 #huella-entrar-NAVIDAD{
     width: 10vw;
+    position: fixed; /* Fija el contenedor en la pantalla */
+    bottom: 15px; /* Mantiene 10 píxeles de distancia desde la parte inferior */
+    left: 90%; /* Centra el contenedor horizontalmente */
+    transform: translateX(-10%); /* Ajusta la posición para centrar exactamente */
 }
 
 /* tratando de hacer hover en huella-click en gatos */
