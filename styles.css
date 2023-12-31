@@ -459,10 +459,9 @@ CSS para secciones "Gatos, Perros y Pequeñas Mascotas"
 
 #huella-entrar-NAVIDAD{
     width: 10vw;
-    position: fixed; /* Fija el contenedor en la pantalla */
-    bottom: 15px; /* Mantiene 10 píxeles de distancia desde la parte inferior */
-    left: 90%; /* Centra el contenedor horizontalmente */
-    transform: translateX(-10%); /* Ajusta la posición para centrar exactamente */
+    margin: 20px;
+    position: relative;
+    bottom: 15px;
 }
 
 /* tratando de hacer hover en huella-click en gatos */
