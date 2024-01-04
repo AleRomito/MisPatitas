@@ -16,7 +16,6 @@ body{
     background-image: url(./Fotos-Index/BACKGROUND-MP-LGREY.jpg);
     background-repeat: repeat;
     background-size: 50%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     margin: 0;
 }
@@ -170,7 +169,7 @@ footer{
     padding: 5px;
 }
 .marca-alim{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     font-size: 14pt;
     font-weight: bold;
     color: rgb(78, 74, 74);
@@ -447,22 +446,6 @@ CSS para secciones "Gatos, Perros y Pequeñas Mascotas"
 
 /* ----------------------------
 ---------------------------- */
-
-#isologo-transp{
-    width: 70vw;
-    margin-top: 50px;
-}
-#deseo2024{
-    width: 60vw;
-    margin-top: 50px;
-}
-
-#huella-entrar-NAVIDAD{
-    width: 10vw;
-    margin: 20px;
-    position: relative;
-    bottom: 15px;
-}
 
 /* tratando de hacer hover en huella-click en gatos */
 #huella-click{
