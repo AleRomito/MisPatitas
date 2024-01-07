@@ -341,6 +341,7 @@ CSS para secciones "Gatos, Perros y Pequeñas Mascotas"
     justify-content: space-evenly;
 }
 /* ---------------- */
+
 /* IMAGEN A TEXTO */
 
 .contenedor-juego {
@@ -704,16 +705,6 @@ resolucion del dispositivo. */
         color: black;
     }
 
-    #huella-entrar-NAVIDAD{
-        width: 20vw;
-    }
-    #FOTO-MUCHAS-FELICIDADES{
-        width: 70vw;
-    }
-    #FOTO-MUCHAS-FELICIDADES img{
-        border-radius: 50px;
-    }
-
 
     #menu-movil{
         display: none;
@@ -786,17 +777,6 @@ resolucion del dispositivo. */
         text-decoration: none;
         color: black;
     }
-
-    #huella-entrar-NAVIDAD{
-        width: 20vw;
-    }
-    #FOTO-MUCHAS-FELICIDADES{
-        width: 70vw;
-    }
-    #FOTO-MUCHAS-FELICIDADES img{
-        border-radius: 30px;
-    }
-
 
 
     #menu-movil{
@@ -918,19 +898,6 @@ resolucion del dispositivo. */
         border-radius: 20px;
     }
 
-
-    #huella-entrar-NAVIDAD{
-        width: 30vw;
-    }
-    #FOTO-MUCHAS-FELICIDADES{
-        width: 80vw;
-    }
-    #FOTO-MUCHAS-FELICIDADES{
-        border-radius: 30px;
-    }
-
-
-
     #perro-pc{
         width: 80vw;
     }
@@ -1032,6 +999,83 @@ resolucion del dispositivo. */
         width: 100%;
     }
 
+    .imagen-mascota-inicio{
+        width: 90vw;
+        border-radius: 80px;
+        padding: 20pt;
+        padding-top: 5pt;
+    }
+    .grilla-secc-mascotas-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+    }
+    .contenido-mascotas-imagen{
+        width: 90vw;
+        height: fit-content;
+        margin: 10px;
+        border-radius: 50px;
+        /* background-color: grey; */
+    }
+    .contenido-mascotas-imagen img{
+        border-radius: 50px;
+    }
+    .contenido-mascotas-texto{
+        width: 80vw;
+        height: fit-content;
+        margin: 10px;
+        padding: 20px;
+        border-radius: 50px;
+        background-color: rgb(128, 128, 128, 0.3);
+        font-size: larger;
+    }
+    .logos-alimentos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .logos-alimentos img{
+        padding: 10px;
+        border-radius: 40px;
+        transition: 0.5s;
+    }
+    .logos-alimentos img:hover{
+        transform: scale(1.09);
+    }
+    .texto-cuidados{
+        width: 90vw;
+        background-color: gray;
+        border-radius: 50px;
+        margin: 20px;
+        padding: 20px;
+        background-size: cover;
+        background-position: center;
+    }
+    #contenido-cuidados{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    #ng1{order: 1;}
+    #ng2{order: 2;}
+    #ng3{order: 4;}
+    #ng4{order: 3;}
+    #ng5{order: 5;}
+    #ng6{order: 6;}
+    #care1{order: 1;}
+    #care2{order: 3;}
+    #care3{order: 4;}
+    #care4{order: 6;}
+    #care5{order: 7;}
+    #care6{order: 9;}
+    #care7{order: 10;}
+    #care8{height: 300px; order: 2;}
+    #care10{height: 300px; order: 5;}
+    #care9{height: 300px; order: 8;}
+    #care11{height: 300px; order: 11;}
 }
 
 
