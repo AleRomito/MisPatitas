@@ -832,7 +832,7 @@ resolucion del dispositivo. */
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        box-sizing: border-box;
+        /* box-sizing: border-box; */
         max-width: 95vw;
     }
 
@@ -1063,14 +1063,17 @@ resolucion del dispositivo. */
         display: flex;
         align-items: center;
     }
-    #contenido-cuidados{
+
+    #cuidado-gato{
         display: flex;
         flex-direction: column;
         align-items: center;
         flex-wrap: wrap;
-        box-sizing: border-box;
+        /* box-sizing: border-box; */
         justify-content: space-evenly;
+
     }
+
     #ng1{order: 1;}
     #ng2{order: 2;}
     #ng3{order: 4;}
