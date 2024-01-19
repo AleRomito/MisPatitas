@@ -973,6 +973,13 @@ resolucion del dispositivo. */
         display: none;
     }
 
+    #grilla-alim {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+
     #logo-instagram{
         width: 60vw;
         padding: 15px;
@@ -1102,22 +1109,8 @@ resolucion del dispositivo. */
 @media only screen and (max-width: 399px){
     
     .logos-alimentos{
-        /* display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly; */
         width: 100vw;
     }
-    /* .logos-alimentos img{
-        padding: 10px;
-        border-radius: 40px;
-        transition: 0.5s;
-        width: 40dvw;
-    }
-    .logos-alimentos img:hover{
-        transform: scale(1.09);
-    } */
-
 
 }
 
