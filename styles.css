@@ -328,10 +328,13 @@ CSS para secciones "Gatos, Perros y Pequeñas Mascotas"
 #care5{background-color: rgba(153, 176, 209, 0.5);}
 #care6{background-color: rgba(211, 250, 69, 0.5);}
 #care7{background-color: rgba(226, 102, 102, 0.5);}
+#care7b{background-color: rgba(102, 120, 226, 0.5);}
 #care8{background-image: url(./SECC-GATOS/gato-cepillar.jpg);}
 #care9{background-image: url(./SECC-GATOS/gato-en-veterinaria1.jpg);}
 #care10{background-image: url(./SECC-GATOS/gato-bañandose.jpg);}
 #care11{background-image: url(./SECC-GATOS/gato-comiendo.webp);}
+#care12{background-image: url(./SECC-PERROS/Perro-con-plato-de-comida.png);}
+#care13{background-image: url(./SECC-PERROS/perro-corriendo-hierba-lengua-fuera.jpg);}
 
 /* Para SECCIONES Entretenimiento */
 .grilla-entret-gato{
@@ -1104,6 +1107,11 @@ resolucion del dispositivo. */
     #care10{height: 300px; order: 5;}
     #care9{height: 300px; order: 8;}
     #care11{height: 300px; order: 11;}
+
+    /* Para cuidado en Secc Perros */
+    #care12{height: 300px;}
+    #care13{height: 300px;}
+
 }
 
 @media only screen and (max-width: 399px){
