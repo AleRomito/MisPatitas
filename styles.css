@@ -309,6 +309,7 @@ CSS para secciones "Gatos, Perros y Pequeñas Mascotas"
 }
 .texto-cuidados{
     width: 25vw;
+    height: 200px;
     background-color: gray;
     border-radius: 50px;
     margin: 20px;
@@ -335,6 +336,12 @@ CSS para secciones "Gatos, Perros y Pequeñas Mascotas"
 #care11{background-image: url(./SECC-GATOS/gato-comiendo.webp);}
 #care12{background-image: url(./SECC-PERROS/Perro-con-plato-de-comida.png);}
 #care13{background-image: url(./SECC-PERROS/perro-corriendo-hierba-lengua-fuera.jpg);}
+#care14{background-image: url(./SECC-PERROS/perro-cuidado-dental.jpeg);}
+#care15{background-image: url(./SECC-PERROS/perro-en-veterinario.jpg);}
+#care16{background-image: url(./SECC-PERROS/perro-socializacion.jpg);}
+#care17{background-image: url(./SECC-PERROS/perro-descanso.webp);}
+#care18{background-image: url(./SECC-PERROS/perro-jugando.jpg);}
+#care19{background-image: url(./SECC-PERROS/perro-con-collar-y-placa.jpg);}
 
 /* Para SECCIONES Entretenimiento */
 .grilla-entret-gato{
