@@ -323,25 +323,33 @@ CSS para secciones "Gatos, Perros y Pequeñas Mascotas"
     justify-content: space-evenly;
 }
 #care1{background-color: rgb(250, 235, 215, 0.5);}
-#care2{background-color: rgba(252, 185, 98, 0.5);}
-#care3{background-color: rgba(248, 128, 222, 0.5);}
-#care4{background-color: rgba(188, 255, 134, 0.5);}
-#care5{background-color: rgba(153, 176, 209, 0.5);}
-#care6{background-color: rgba(211, 250, 69, 0.5);}
-#care7{background-color: rgba(226, 102, 102, 0.5);}
-#care7b{background-color: rgba(102, 120, 226, 0.5);}
-#care8{background-image: url(./SECC-GATOS/gato-cepillar.jpg);}
-#care9{background-image: url(./SECC-GATOS/gato-en-veterinaria1.jpg);}
-#care10{background-image: url(./SECC-GATOS/gato-bañandose.jpg);}
-#care11{background-image: url(./SECC-GATOS/gato-comiendo.webp);}
-#care12{background-image: url(./SECC-PERROS/Perro-con-plato-de-comida.png);}
-#care13{background-image: url(./SECC-PERROS/perro-corriendo-hierba-lengua-fuera.jpg);}
-#care14{background-image: url(./SECC-PERROS/perro-cuidado-dental.jpeg);}
-#care15{background-image: url(./SECC-PERROS/perro-en-veterinario.jpg);}
-#care16{background-image: url(./SECC-PERROS/perro-socializacion.jpg);}
-#care17{background-image: url(./SECC-PERROS/perro-descanso.webp);}
-#care18{background-image: url(./SECC-PERROS/perro-jugando.jpg);}
-#care19{background-image: url(./SECC-PERROS/perro-con-collar-y-placa.jpg);}
+#care2{background-image: url(./SECC-GATOS/gato-cepillar.jpg);}
+#care3{background-color: rgba(252, 185, 98, 0.5);}
+#care4{background-image: url(./SECC-GATOS/gato-bañandose.jpg);}
+#care5{background-color: rgba(248, 128, 222, 0.5);}
+#care6{background-color: rgba(188, 255, 134, 0.5);}
+#care7{background-color: rgba(153, 176, 209, 0.5);}
+#care8{background-image: url(./SECC-GATOS/gato-en-veterinaria1.jpg);}
+#care9{background-color: rgba(211, 250, 69, 0.5);}
+#care10{background-image: url(./SECC-GATOS/gato-comiendo.webp);}
+#care11{background-color: rgba(226, 102, 102, 0.5);}
+#care12{background-color: rgb(250, 235, 215, 0.5);}
+#care13{background-image: url(./SECC-PERROS/Perro-con-plato-de-comida.png);}
+#care14{background-color: rgba(252, 185, 98, 0.5);}
+#care15{background-image: url(./SECC-PERROS/perro-corriendo-hierba-lengua-fuera.jpg);}
+#care16{background-color: rgba(248, 128, 222, 0.5);}
+#care17{background-image: url(./SECC-PERROS/perro-cuidado-dental.jpeg);}
+#care18{background-color: rgba(188, 255, 134, 0.5);}
+#care19{background-image: url(./SECC-PERROS/perro-en-veterinario.jpg);}
+#care20{background-color: rgba(153, 176, 209, 0.5);}
+#care21{background-image: url(./SECC-PERROS/perro-socializacion.jpg);}
+#care22{background-color: rgba(211, 250, 69, 0.5);}
+#care23{background-image: url(./SECC-PERROS/perro-descanso.webp);}
+#care24{background-color: rgba(226, 102, 102, 0.5);}
+#care25{background-image: url(./SECC-PERROS/perro-jugando.jpg);}
+#care26{background-color: rgba(102, 120, 226, 0.5);}
+#care27{background-image: url(./SECC-PERROS/perro-con-collar-y-placa.jpg);}
+
 
 /* Para SECCIONES Entretenimiento */
 .grilla-entret-gato{
@@ -1103,21 +1111,6 @@ resolucion del dispositivo. */
     #ng4{order: 3;}
     #ng5{order: 5;}
     #ng6{order: 6;}
-    #care1{order: 1;}
-    #care2{order: 3;}
-    #care3{order: 4;}
-    #care4{order: 6;}
-    #care5{order: 7;}
-    #care6{order: 9;}
-    #care7{order: 10;}
-    #care8{height: 300px; order: 2;}
-    #care10{height: 300px; order: 5;}
-    #care9{height: 300px; order: 8;}
-    #care11{height: 300px; order: 11;}
-
-    /* Para cuidado en Secc Perros */
-    #care12{height: 300px;}
-    #care13{height: 300px;}
 
 }
 
