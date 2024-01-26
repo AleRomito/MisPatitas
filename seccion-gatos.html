@@ -3,55 +3,202 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="no-visual">MP - Sección Gatos</title>
+    <title id="no-visual">Sección Gatos - Mis Patitas</title>
     <link rel="icon" href="./Fotos-Index/Logo-title-MP.ico" type="image/x-icon">
-    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">  
   
     <link rel="stylesheet" href="./styles.css">
-    
+
 </head>
 <body>
-    <header><h1>Bienvenidos a la Sección "Gatos" de Mis Patitas!</h1>
-</header>
+    <header>
+        <h1>Bienvenidos a nuestra <span style="font-weight: bold; color: rgb(117, 0, 163);">"Sección Gatos"</span> </h1>
+    </header>
+    <main>
+        <img class="imagen-mascota-inicio" src="./SECC-GATOS/gato-sobre-cesped.jpg" alt="">
+        <div id="volver"><a href="./index.html#secciones"><img src="./Fotos-Index/ARROW-BACK.png"alt="volver"></a></div>
 
-<main>
-    <div id="volver"><a href="./index.html#secciones"><img src="./Fotos-Index/ARROW-BACK.png"alt="volver"></a></div>
-
-    <div id="border50-secciones">
-        <img src="./MP IMG/gato-en-cosntruccion.jpg" alt="Sección gatos - En construcción">
-    </div>
-
-      <!-- Imagen trigger para modal -->
-      <img id="huella-click" src="./MP IMG/huella-click.png" style="cursor: pointer;" alt="huella-click-aquí" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      
-      <!-- Modal -->
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5" id="exampleModalLabel">Ahora en Mis Patitas...</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <p>Estamos trabajando para brindarte la mejor experiencia en nuestro sitio!!</p>
-              <p>En breve ya estará todo listo!</p>
-              <div><p>Te esperamos</p>
-                  <img style="width: 30px;" src="./MP IMG/huella-sola.png" alt="huella logo mis patitas">
-              </div>
-            </div>     
-          </div>
+        <div id="barra">
+            <ul>
+                 <li class="item-list"><a href="#inicio-gato">Nuestos gatos</a></li>
+                 <li class="item-list"><a href="#alim-gato">Alimentación felina</a></li>
+                 <li class="item-list"><a href="#cuidado-gato">Cuidado y aseo</a></li>
+                 <li class="item-list"><a href="#entret-gato">Entretenimiento</a></li>            
+                 <li><a href="#"><img style="height: 35px; width: 40px;" src="./Fotos-Index/huella-flecha-arriba-6px.png" alt=""></a></li>             </ul>
+            </ul>
         </div>
-      </div>
+        <div id="menu-movil-landscape">
+            <ul>
+                 <li class="item-list"><a href="#inicio-gato">Nuestros gatos</a></li>
+                 <li class="item-list"><a href="#alim-gato">Alimentación Felina</a></li>
+                 <li class="item-list"><a href="#cuidado-gato">Cuidado y aseo</a></li>
+                 <li class="item-list"><a href="#entret-gato">Entretenimiento</a></li>            
+                 <li><a href="#"><img style="height: 35px; width: 40px;" src="./Fotos-Index/huella-flecha-arriba-6px.png" alt=""></a></li>             </ul>
+            </ul>
+        </div>
 
-</main>
-<footer>
-    Tienda de Mascotas "Mis Patitas" Mar del Plata - 2024
-</footer>
+        <div id="menu-movil">
+            <div class="dropdown-center">
+              <button class="btn btn-secondary dropdown-toggle boton-menu-movil" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Menú
+              </button>
+              <ul class="dropdown-menu lista-menu" style="text-align: center;">
+                <li><a class="dropdown-item" href="#inicio-gato">Nuestos gatos</a></li>
+                <li><a class="dropdown-item" href="#alim-gato">Alimentación</a></li>
+                <li><a class="dropdown-item" href="#cuidado-gato">Cuidado</a></li>
+                <li><a class="dropdown-item" href="#entret-gato">Entretenimiento</a></li>
+              </ul>
+            </div>
+            <div><a href="#"><img src="./Fotos-Index/huella-flecha-arriba.png" style="width: 40px;" alt="volver arriba"></a></div>
 
+        </div>  
+
+    <section id="inicio-gato">  
+        <p style="font-size: larger; padding-top: 10px;">Éste es nuestro rincón de misterio y elegancia, en donde celebramos a nuestros compañeros de cuatro patas más independientes: los gatos. En esta sección, encontrarás todo lo que necesitas para cuidar, mimar y consentir a tu enigmático minino.</p>
+        <div class="grilla-secc-mascotas-1">
+            <div class="contenido-mascotas-imagen" id="ng1"><img src="./SECC-GATOS/GatosCarton1.jpg" alt="Gato y caja"></div>
+            <div class="contenido-mascotas-texto" id="ng2"><p>Nuestro objetivo es proporcionarte toda la información y los productos que necesitas para garantizar que la vida de tu gato esté llena de alegría y vitalidad. Explora nuestras secciones dedicadas a la alimentación, cuidado, entretenimiento y mucho más.</p></div>
+            <div class="contenido-mascotas-texto" id="ng3"><p>Para gatos juguetones y también para gatos sabios y serenos, nuestra sección está diseñada para satisfacer todas las necesidades de tus amigos felinos. Aquí, ofrecemos una amplia gama de productos, consejos y recursos que harán que la vida con tu peludo amigo sea aún más especial.</p></div>
+            <div class="contenido-mascotas-imagen" id="ng4"><img src="./SECC-GATOS/gatos-jugando-1280x720.jpg" alt="Gato jugando"></div>
+            <div class="contenido-mascotas-imagen" id="ng5"><img src="./SECC-GATOS/gato-anaranjado.jpeg" alt="Gato jugando"></div>
+            <div class="contenido-mascotas-texto" id="ng6"><p>En esta sección, los gatos son las estrellas principales. ¡Así que únete a nosotros y celebra la magia y el encanto de tu misterioso compañero felino!</p></div>
+        </div>
+    </section>
+    <section id="alim-gato">
+        <div class="titulo">Alimentación felina</div>
+        <p style="font-size: larger;">En el fascinante mundo de los felinos, la elección de una dieta adecuada es esencial para garantizar la salud y vitalidad de nuestros adorables compañeros peludos.</p>
+        <p style="font-size: large;">Para ello contamos con una gran variedad de marcas y opciones de alimentos para que puedas elegir entre las mejores lineas del mercado.</p>
+        <div class="logos-alimentos">
+            <a href="./alimentos.html#gato-agility"><img src="./MP IMG/ALIM-GATO/MARCAS/MARCA-AGILITY.png" alt=""></a>
+            <a href="./alimentos.html#gato-cat-chow"><img src="./MP IMG/ALIM-GATO/MARCAS/MARCA-CAT-CHOW.png" alt=""></a>
+            <a href="./alimentos.html#gato-complete"><img src="./MP IMG/ALIM-GATO/MARCAS/MARCA-VITAL-COMPLETE.png" alt=""></a>
+            <a href="./alimentos.html#gato-balanced"><img src="./MP IMG/ALIM-GATO/MARCAS/MARCA-VITAL-BALANCED.png" alt=""></a>
+            <a href="./alimentos.html#gato-excellent"><img src="./MP IMG/ALIM-GATO/MARCAS/MARCA-NUTRIQUE.png" alt=""></a>
+            <a href="./alimentos.html#gato-nutrique"><img src="./MP IMG/ALIM-GATO/MARCAS/MARCA-PURINA-EXCELLENT.png" alt=""></a>
+            <a href="./alimentos.html#gato-pro-plan"><img src="./MP IMG/ALIM-GATO/MARCAS/MARCA-PRO-PLAN.png" alt=""></a>
+            <a href="./alimentos.html#gato-royal"><img src="./MP IMG/ALIM-GATO/MARCAS/MARCA-ROYAL.png" alt=""></a>
+            <a href="./alimentos.html#gato-sieger"><img src="./MP IMG/ALIM-GATO/MARCAS/MARCA-SIEGER-KATZE.png" alt=""></a>
+            <a href="./alimentos.html#gato-whiskas"><img src="./MP IMG/ALIM-GATO/MARCAS/MARCA-WHISKAS.png" alt=""></a>
+        </div>
+        <p>Los gatos son carnívoros obligados, lo que significa que su dieta debe centrarse en proteínas animales de alta calidad. Optar por alimentos balanceados y específicamente formulados para gatos asegura la ingesta adecuada de nutrientes esenciales como taurina, vitaminas y minerales. Además, es importante considerar la edad, peso y estado de salud del felino al seleccionar el tipo y la cantidad de alimento, brindándoles así una nutrición óptima que contribuirá a una vida activa y plena.</p>
+
+    </section>
+    <section id="cuidado-gato">
+        <div class="titulo">Cuidado y aseo</div>
+            <p style="font-size: larger;">Cuidar de tu gato no solo contribuye a su bienestar, sino que también fortalece el vínculo entre ustedes. Acá tenemos algunos consejos breves para el cuidado de tu amigo felino:</p>
+            <div id="contenido-cuidados">
+                    <div class="texto-cuidados" id="care1"><p style="font-size: larger;">Cepillado Diario:</p>
+                        <p>Un cepillado regular ayuda a mantener el pelaje de tu gato limpio y libre de pelos sueltos, reduciendo la formación de bolas de pelo y promoviendo una piel saludable.</p>
+                    </div>
+                    <div class="texto-cuidados" id="care2"></div>
+                    <div class="texto-cuidados" id="care3"><p style="font-size: larger;">Limpieza de la Caja de Arena:</p>
+                        <p>Asegurate de limpiar la caja de arena diariamente. Los gatos son criaturas limpias y prefieren un entorno fresco y libre de olores desagradables.</p>   
+                    </div>
+                    <div class="texto-cuidados" id="care4"></div>
+                    <div class="texto-cuidados" id="care5"><p style="font-size: larger;">Baños Ocasionales:</p>
+                        <p>Aunque muchos gatos no disfrutan del agua, algunos pueden necesitar baños ocasionales. Usá productos específicos para gatos y asegurate de secarlo completamente después.</p>
+                    </div>
+                    <div class="texto-cuidados" id="care5b"></div>
+                    <div class="texto-cuidados" id="care6"><p style="font-size: larger;">Cuidado de Uñas:</p>
+                        <p>Recortá las uñas de tu gato regularmente para prevenir que se enganchen en objetos o causen incomodidad. Utilizá cortaúñas diseñados para gatos y sé cuidadoso para no cortar la parte sensible.</p>
+                    </div>
+                    <div class="texto-cuidados" id="care8"></div>
+                    <div class="texto-cuidados" id="care7"><p style="font-size: larger;">Control Veterinario Regular:</p>
+                        <p>Programá revisiones veterinarias periódicas. Los chequeos regulares ayudan a detectar cualquier problema de salud temprano y garantizan que tu gato esté al día con sus vacunas.</p>
+                    </div>
+                    <div class="texto-cuidados" id="care8b"></div>
+                    <div class="texto-cuidados" id="care9"><p style="font-size: larger;">Juguetes y Estimulación:</p>
+                        <p>Proporcioná juguetes para mantener a tu gato activo y estimulado. Esto no solo es divertido para él, sino que también ayuda a prevenir el aburrimiento y posibles comportamientos destructivos.</p>
+                    </div>
+                    <div class="texto-cuidados" id="care10"></div>
+                    <div class="texto-cuidados" id="care11"><p style="font-size: larger;">Dieta Balanceada:</p>
+                        <p>Ofrecele una dieta equilibrada y adecuada para cada una de las etapas de su vida. Consultá con tu veterinario para elegir el alimento más apropiado para las necesidades específicas de tu gato.</p>
+                    </div>
+                    <div class="texto-cuidados" id="care11b"></div>
+                    <div class="texto-cuidados" id="care11c"><p style="font-size: larger;">Dieta Balanceada:</p>
+                        <p>Ofrecele una dieta equilibrada y adecuada para cada una de las etapas de su vida. Consultá con tu veterinario para elegir el alimento más apropiado para las necesidades específicas de tu gato.</p>
+                    </div>
+            </div>
+            <p style="font-size: larger;">Recordá que cada gato es único! Por lo que es importante observar y adaptar tus cuidados según sus preferencias individuales.</p>
+            <p style="font-size: larger;">Después solo queda compartir y divertirse juntos!!!</p>
+        </section>
+
+        <section id="entret-gato">
+
+            <div class="titulo">Entretenimiento</div>
+            <p style="font-size: larger;">En un mundo lleno de cajas misteriosas y juguetes que crujen, viven nuestros intrépidos amigos!</p> 
+            <p style="font-size: large;">Con ojos afilados y bigotes en alerta, se embarcan en una emocionante cacería de bolas de papel arrugado. ¡Pero cuidado! Porque detrás de cada esquina hay sombras danzantes y juguetes que se esconden. Nuestos valientes exploradores del sofá, desatan su furia juguetona mientras persiguen su cola y demuestran que, en el reino del entretenimiento felino, ¡cada momento es una aventura inolvidable!</p>
+            <p id="ver-en-movil" style="font-size: larger; font-weight: bolder;">Tocá en cada cuadro para saber más!!!</p>
+            <div class="grilla-entret-gato">
+
+                <div class="contenedor-juego">
+                    <div class="texto-juego" id="text8">
+                      <p style="font-size: larger;">El juego es fundamental para la salud y bienestar de los gatos por varias razones.</p><p style="font-size: larger;">Aquí hay algunas explicaciones sobre la importancia del juego para los felinos:</p>
+                    </div>
+                    <img class="imagen-overlay-juego" src="./SECC-GATOS/gato-jugando8.jpg" alt="gatos jugando en estación de ejercicio">
+                </div>
+
+                <div class="contenedor-juego">
+                    <img class="imagen-juego" src="./SECC-GATOS/gato-jugando1.jpg" alt="gato anaranjado con pelota">
+                    <div class="texto-overlay-juego" id="text1">
+                        <p style="font-size: larger;">Ejercicio físico:</p><p>El juego proporciona a los gatos la oportunidad de ejercitar sus músculos y mantenerse activos. El ejercicio regular es esencial para prevenir la obesidad y mantener un peso saludable, lo cual es muy importante para la salud general de un gato.</p>
+                    </div>
+                </div>
+                <div class="contenedor-juego">
+                    <img class="imagen-juego" src="./SECC-GATOS/gato-jugando5.jpg" alt="gato atigrado arañando rascador">
+                    <div class="texto-overlay-juego" id="text5">
+                        <p style="font-size: larger;">Reducción del estrés:</p><p>El juego puede ayudar a reducir el estrés en los gatos al proporcionarles una salida para liberar energía acumulada y frustración. Esto es especialmente beneficioso en situaciones en las que el gato puede experimentar cambios en su entorno o rutina.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="contenedor-juego">
+                    <div class="texto-juego" id="text3">
+                      <p style="font-size: larger;">Estimulación mental:</p><p>El juego no solo implica actividad física, sino también estimulación mental. Los juegos que involucran la caza y la resolución de problemas ayudan a mantener la mente de un gato alerta y activa. Esto es especialmente importante para gatos que viven en interiores, ya que el entorno limitado puede volverse monótono para ellos.</p>
+                    </div>
+                    <img class="imagen-overlay-juego" src="./SECC-GATOS/gato-jugando3.jpg" alt="gatos jugando en estación de ejercicio">
+                </div>
+                <div class="contenedor-juego">
+                    <div class="texto-juego" id="text4">
+                      <p style="font-size: larger;">Vínculo humano-gato:</p><p>El juego también es una excelente manera de fortalecer el vínculo entre los dueños y sus gatos. Pasar tiempo interactuando y divirtiéndose con el gato ayuda a construir una relación sólida y afectuosa.</p>
+                    </div>
+                    <img class="imagen-overlay-juego" src="./SECC-GATOS/gato-jugando4.jpg" alt="gatito jugando con barita de plumas">
+                </div>
+                <div class="contenedor-juego">
+                    <img class="imagen-juego" src="./SECC-GATOS/gato-jugando2.jpg" alt="gato negro jugando con plumas">
+                    <div class="texto-overlay-juego" id="text2">
+                        <p style="font-size: larger;">Prevención del aburrimiento:</p><p> Los gatos son animales curiosos y necesitan estímulos constantes para evitar el aburrimiento. El juego proporciona una salida para su energía y evita que se involucren en comportamientos no deseados, como arañar muebles o morder cables.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="contenedor-juego">
+                    <img class="imagen-juego" src="./SECC-GATOS/gato-jugando6.jpg" alt="gato anaranjado juega con ovillo de hilo">
+                    <div class="texto-overlay-juego" id="text6">
+                      <p style="font-size: larger;">Desarrollo de habilidades naturales:</p><p>Muchos juegos imitan comportamientos naturales de caza, como perseguir, saltar y atrapar presas simuladas. Estos juegos permiten a los gatos desarrollar y mantener sus habilidades naturales y su instinto, incluso si viven en un entorno doméstico.</p>
+                    </div>
+                </div>
+
+                <div class="contenedor-juego">
+                    <div class="texto-juego" id="text7">
+                      <p style="font-size: larger;">Prevención de problemas de salud:</p><p>El juego regular puede ayudar a prevenir problemas de salud en los gatos, como la formación de bolas de pelo y la rigidez articular. El ejercicio y el estiramiento que acompañan al juego contribuyen a mantener la flexibilidad y la salud física de los felinos.
+                    </p>
+                    </div>
+                    <img class="imagen-overlay-juego" src="./SECC-GATOS/gato-jugando7.jpg" alt="gatito juega con pelota verde">
+                </div>
+            </div>  
+        </section>
+
+        <div class="grilla-secc-mascotas-1">
+            <div class="contenido-mascotas-texto">En resumen, el juego es esencial para mantener a los gatos física y mentalmente saludables, promover la interacción con sus dueños y prevenir problemas de comportamiento. Proporcionar juguetes interactivos y dedicar tiempo diario al juego puede marcar una gran diferencia en la calidad de vida de un gato.</div>
+        </div>
+
+    </main>
+    <footer>
+        Tienda de Mascotas "Mis Patitas" Mar del Plata - 2024
+    </footer>
 
     
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </html>
