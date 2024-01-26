@@ -327,12 +327,16 @@ CSS para secciones "Gatos, Perros y Pequeñas Mascotas"
 #care3{background-color: rgba(252, 185, 98, 0.5);}
 #care4{background-image: url(./SECC-GATOS/gato-bañandose.jpg);}
 #care5{background-color: rgba(248, 128, 222, 0.5);}
+#care5b{background-image: url(./SECC-GATOS/gato-uñas.jpg);}
 #care6{background-color: rgba(188, 255, 134, 0.5);}
 #care7{background-color: rgba(153, 176, 209, 0.5);}
 #care8{background-image: url(./SECC-GATOS/gato-en-veterinaria1.jpg);}
+#care8b{background-image: url(./SECC-GATOS/gato-estimulacion.webp);}
 #care9{background-color: rgba(211, 250, 69, 0.5);}
 #care10{background-image: url(./SECC-GATOS/gato-comiendo.webp);}
 #care11{background-color: rgba(226, 102, 102, 0.5);}
+#care11b{background-image: url(./);}
+#care11c{background-color: rgb(207, 165, 24);}
 #care12{background-color: rgb(250, 235, 215, 0.5);}
 #care13{background-image: url(./SECC-PERROS/Perro-con-plato-de-comida.png);}
 #care14{background-color: rgba(252, 185, 98, 0.5);}
