@@ -130,14 +130,14 @@ footer{
     align-items: center;
     font-size: 20pt;
     font-weight: bold;
-    margin: 20PX;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 10PX;
-    margin-left: 50px;
-    width: 340px;
+    width: 100vw;
     height: 40px;
-    border-radius: 15px;
+    /* border-radius: 15px; */
     background-color: white;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+    /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.9); */
 }
 .titulo-marca{
     text-align: center;
@@ -737,7 +737,10 @@ resolucion del dispositivo. */
         text-decoration: none;
         color: black;
     }
-
+    .texto-cuidados{
+        height: 300px;
+        width: 300px;
+    }   
 
     #menu-movil{
         display: none;
@@ -810,7 +813,6 @@ resolucion del dispositivo. */
         text-decoration: none;
         color: black;
     }
-
 
     #menu-movil{
         display: none;
@@ -903,11 +905,11 @@ resolucion del dispositivo. */
         font-weight: bold;
         margin: 20PX;
         padding: 10PX;
-        width: 250px;
+        width: 100vw;
         height: 40px;
-        border-radius: 15px;
+        /* border-radius: 15px; */
         background-color: white;
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+        /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.9); */
     }
 
     .seccion-grilla-prod{
