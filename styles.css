@@ -45,6 +45,10 @@ footer{
     margin: 0%;
     z-index: 3;
 }
+.banner-divisor{
+    background-color: white;
+    width: 100%;
+}
 
 .item-list :hover{
     color: rgb(44, 44, 44);
@@ -504,6 +508,11 @@ CSS para secciones "Gatos, Perros y Pequeñas Mascotas"
     border-radius: 50px;
     padding: 20px;
     width: 40vw;
+}
+#border50accesorios img{
+    border-radius: 50px;
+    padding: 20px;
+    width: 50vw;
 }
 
 #menu-movil{
