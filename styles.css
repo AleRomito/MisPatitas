@@ -265,6 +265,67 @@ footer{
 .cerrar-modal{
     background-color: rgb(218, 15, 167);
 }
+
+/* ---------------------
+CSS para SECCION PRODUCTOS - MODA
+--------------------- */
+
+.grilla-400 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+  }
+  
+  .card {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    margin: 20px;
+  }
+  
+  .card:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+  }
+  
+  .first-content {
+    width: 100%;
+    transition: opacity 0.4s;
+    opacity: 1;
+    border-radius: 15px;
+  }
+  
+  .first-content img {
+    border-radius: 15px;
+  }
+  
+  .card:hover .first-content {
+    opacity: 0;
+  }
+  
+  .second-content {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.4s, transform 0.4s; /* Añadimos la transición para transform */
+    transform-origin: center; /* El punto de origen de la transformación es el centro */
+  }
+  
+  .second-content img {
+    border-radius: 15px;
+  }
+  
+  .card:hover .second-content {
+    opacity: 1;
+    transform: scale(1.1); /* Escala proporcional hacia los cuatro lados */
+  }
+  
+
 /* ---------------------------
 CSS para secciones "Gatos, Perros y Pequeñas Mascotas"
 --------------------------- */

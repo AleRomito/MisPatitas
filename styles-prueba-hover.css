@@ -1,46 +1,57 @@
 body{
   background-color: gray;
+  box-sizing: border-box;
 }
+
+.grilla-400 {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
 .card {
-    width: 400px;
-    height: 400px;
-    transition: all 0.4s;
-    border-radius: 10px;
-    padding: 20px;
-  }
-  .card:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-  }
-  
-  .first-content {
-    height: 100%;
-    width: 100%;
-    transition: all 0.4s;
-    opacity: 1;
-    border-radius: 15px;
-  }
-    .first-content img{
-    border-radius: 15px;
-  }
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+  margin: 20px;
+}
 
-  .card:hover .first-content {
-    height: 0px;
-    opacity: 0;
-  }
-  
-  .second-content {
-    height: 0%;
-    width: 100%;
-    opacity: 0;
-    transition: all 0.4s;
-  }
-  .second-content img{
-    border-radius: 15px;
-  }
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
 
-  .card:hover .second-content {
-    opacity: 1;
-    height: 100%;
-  }
-  
+.first-content {
+  width: 100%;
+  transition: opacity 0.4s;
+  opacity: 1;
+  border-radius: 15px;
+}
+
+.first-content img {
+  border-radius: 15px;
+}
+
+.card:hover .first-content {
+  opacity: 0;
+}
+
+.second-content {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.4s, transform 0.4s; /* Añadimos la transición para transform */
+  transform-origin: center; /* El punto de origen de la transformación es el centro */
+}
+
+.second-content img {
+  border-radius: 15px;
+}
+
+.card:hover .second-content {
+  opacity: 1;
+  transform: scale(1.1); /* Escala proporcional hacia los cuatro lados */
+}
