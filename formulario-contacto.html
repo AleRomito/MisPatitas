@@ -1,29 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title id="no-visual">Contacto</title>
     <link rel="icon" href="./Fotos-Index/Logo-title-MP.ico" type="image/x-icon">
     <link rel="stylesheet" href="./styles.css">
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        emailjs.init('nlvmNjK1PkyggZUbM')
+    </script>
 </head>
 <body class="body-contacto">
     <div id="volver"><a href="./index.html"><img src="./Fotos-Index/ARROW-BACK.png"alt="volver"></a></div>
     
     <div id="perro-pc"><img src="./Fotos-Index/Perro-con-pc.jpg" alt=""></div>
-    <form class="form">
+
+    <form class="form" id="form">
         <div class="title">Contactanos</div>
-        <label for="Tu nombre">Tu nombre</label>
-        <input type="text" placeholder="Me llamo..." class="input"required>
-        <label for="Tu email">Tu email</label>
-        <input type="text" placeholder="nombre@servidor.com" class="input"required>
-        <label for="mensaje">En que te podemos ayudar?</label>
-        <textarea placeholder="Contanos tus iquietudes..."></textarea>
+        <label for="from_name">Tu nombre</label>
+        <input type="text" name="from_name" placeholder="Me llamo..." id="from_name" class="input"required>
+        <label for="email_id">Tu email</label>
+        <input type="text" name="email_id" placeholder="nombre@servidor.com" id="email_id" class="input"required>
+        <label for="message">En que te podemos ayudar?</label>
+        <textarea placeholder="Contanos tus iquietudes..." name="message" id="message"></textarea>
          
-        <button disabled>Enviar</button>
-    
+        <input type="submit" id="button" value="Enviar" >
     </form>
-    
+
     <div id="redes">
         <p style="font-size: 15pt; color: rgb(49, 44, 44);">O comunicate con nosotros por nuestras redes!!!</p>
         <div id="logo-instagram"><a href="https://www.instagram.com/mispatitasmdq?igshid=YzAwZjE1ZTI0Zg==" target="_blank"><img src="./MP IMG/MP INSTA.PNG" alt="Mis Patitas en Instagram"></a></div>
@@ -37,6 +43,6 @@
     <footer>
         Tienda de Mascotas "Mis Patitas" Mar del Plata - 2024
     </footer>
-    
+    <script src="email.js"></script>
 </body>
 </html>
