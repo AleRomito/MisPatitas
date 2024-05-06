@@ -565,6 +565,12 @@ CSS para secciones "Gatos, Perros y Pequeñas Mascotas"
 }
 /* -------------------------- */
 
+#logoIndex img{
+    width: 60%;
+    border-radius: 50px;
+    
+}
+
 #border50 img{
     border-radius: 50px;
     padding: 20px;
