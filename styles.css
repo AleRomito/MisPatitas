@@ -825,7 +825,13 @@ resolucion del dispositivo. */
         height: 300px;
         width: 300px;
     }   
-
+    #logoIndex{
+        margin-top: 5px;
+    }
+    #logoIndex img{
+        width: 80%;
+        border-radius: 20px;
+    }
     #menu-movil{
         display: none;
     }
