@@ -7,6 +7,7 @@ p{
 }
 #food{
     display: flex;
+    background-color: #adadad;
 }
 
 body{
@@ -163,6 +164,9 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: #504242 solid 2px;
+    margin: 5px;
+    border-radius: 10px;
 }
 .nuestras-secciones{
     position: relative;
@@ -180,7 +184,19 @@ footer{
     font-size: 14pt;
     font-weight: bold;
     color: rgb(78, 74, 74);
+    margin: 0;
+    padding: 0;
 }
+.LineaPrecio{
+    display: flex;
+    flex-direction: row;
+    font-size: 14pt;
+    font-weight: bold;
+    color: rgb(78, 74, 74);
+    padding: 0;
+}
+
+
 
 .tipo-bolsa{
     display: none;
@@ -565,12 +581,6 @@ CSS para secciones "Gatos, Perros y Pequeñas Mascotas"
 }
 /* -------------------------- */
 
-#logoIndex img{
-    width: 60%;
-    border-radius: 50px;
-    
-}
-
 #border50 img{
     border-radius: 50px;
     padding: 20px;
@@ -825,13 +835,7 @@ resolucion del dispositivo. */
         height: 300px;
         width: 300px;
     }   
-    #logoIndex{
-        margin-top: 5px;
-    }
-    #logoIndex img{
-        width: 80%;
-        border-radius: 20px;
-    }
+
     #menu-movil{
         display: none;
     }
