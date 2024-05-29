@@ -46,6 +46,13 @@ footer{
     margin: 0%;
     z-index: 3;
 }
+#logoIndex{
+    width: 100%;
+}
+#logoIndex img{
+    width: 70vw;
+    border-radius: 50px;
+}
 .banner-divisor{
     background-color: white;
     width: 100%;
@@ -805,6 +812,19 @@ CSS para secciones "Gatos, Perros y Pequeñas Mascotas"
     width: 80px;
 }
 
+#consulta_valores{
+    display: flex;
+    align-items: center;
+}
+#consulta_valores img{
+    width: 50px;
+    
+}
+#consulta_valores p{
+    margin-right: 0;
+    padding-bottom: 0;
+}
+
 /* Para corregir la visualizacion segun la
 resolucion del dispositivo. */
 @media only screen and (max-width: 992px){
@@ -835,7 +855,15 @@ resolucion del dispositivo. */
         height: 300px;
         width: 300px;
     }   
-
+    #logoIndex{
+        width: 100%;
+        margin-top: 20px;
+    }
+    #logoIndex img{
+        width: 80vw;
+        border-radius: 50px;
+    }
+    
     #menu-movil{
         display: none;
     }
@@ -969,7 +997,14 @@ resolucion del dispositivo. */
         background-repeat: repeat;
         background-size: 90%;
     }
-
+    #logoIndex{
+        width: 100%;
+    }
+    #logoIndex img{
+        width: 90vw;
+        border-radius: 40px;
+    }
+    
     h1{
         color: #504242;
     }
